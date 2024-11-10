@@ -1,0 +1,6 @@
+<p>Halo,</p>
+<p>Anda telah menerima pesan pribadi baru dari %%NAME%% dengan subjek berikut:</p>
+<p>%%SUBJECT%%</p>
+<p>Anda dapat melihat pesan baru Anda dengan mengklik tautan berikut:<br /><a href="%%TRACK_URL%%">%%TRACK_URL%%</a></p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

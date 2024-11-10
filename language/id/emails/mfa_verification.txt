@@ -1,0 +1,10 @@
+Hai %%NAME%%,
+
+Di bawah ini adalah kode verifikasi otentikasi multi-faktor Anda. Kode ini akan kedaluwarsa dalam 20 menit.
+
+%%VERIFICATION_CODE%%
+
+Terima kasih,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

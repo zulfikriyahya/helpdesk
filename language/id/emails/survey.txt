@@ -1,0 +1,13 @@
+Yang Terhormat %%NAME%%,
+
+Kami menghubungi Anda terkait tiket terbaru Anda "%%SUBJECT%%". Untuk membantu kami melayani Anda lebih baik, kami ingin mendengar tentang pengalaman Anda dengan tim dukungan kami.
+
+Tolong beri tahu kami seberapa mudah masalah Anda diselesaikan:
+%%SURVEY_URL%%
+
+Kami menghargai masukan Anda. Dan seperti biasa, jika ada hal lain yang bisa kami bantu di masa depan – jangan ragu untuk menghubungi kami kembali.
+
+Terima kasih,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

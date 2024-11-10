@@ -1,0 +1,6 @@
+<p>Halo %%NAME%%,</p>
+<p>Tiket dukungan Anda "%%SUBJECT%%" telah diperbarui menjadi status tertutup/terselesaikan.</p>
+<p>Anda dapat melihat status tiket Anda di sini:<br /><a href="%%TRACK_URL%%">%%TRACK_URL%%</a></p>
+<p>Jika tautan di atas tidak dapat diklik, coba salin dan tempel ke bilah alamat peramban web Anda.</p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

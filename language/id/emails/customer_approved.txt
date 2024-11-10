@@ -1,0 +1,11 @@
+Yang Terhormat %%NAME%%,
+
+Pendaftaran akun Anda telah disetujui.
+
+Anda sekarang dapat masuk menggunakan username dan kata sandi yang Anda gunakan saat membuat akun:
+%%CUSTOMER_LOGIN_URL%%
+
+Hormat kami,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

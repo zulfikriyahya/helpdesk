@@ -1,0 +1,11 @@
+Yang Terhormat %%NAME%%,
+
+Kami telah menerima permintaan untuk mengubah alamat email Anda.
+
+Untuk mengonfirmasi perubahan ini, silakan klik tautan di bawah ini (kedaluwarsa dalam 1 jam):
+%%VERIFICATION_URL%%
+
+Hormat kami,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

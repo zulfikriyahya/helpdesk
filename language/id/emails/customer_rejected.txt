@@ -1,0 +1,10 @@
+Yang Terhormat %%NAME%%,
+
+Sayangnya, pendaftaran akun Anda telah ditolak.
+
+Jika Anda percaya ini adalah kesalahan, silakan coba mendaftar lagi.
+
+Hormat kami,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

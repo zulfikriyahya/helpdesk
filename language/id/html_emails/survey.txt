@@ -1,0 +1,6 @@
+<p>Halo %%NAME%%,</p>
+<p>Kami menghubungi Anda terkait tiket terbaru Anda <a href="%%TRACK_URL%%">%%SUBJECT%%</a>. Untuk membantu kami melayani Anda lebih baik, kami ingin mendengar tentang pengalaman Anda dengan tim dukungan kami.</p>
+<p>Silakan beri tahu kami seberapa mudah masalah Anda diselesaikan <a href="%%SURVEY_URL%%">dengan mengklik di sini</a>.</p>
+<p>Kami menghargai masukan Anda. Dan seperti biasa, jika ada hal lain yang bisa kami lakukan untuk Anda di masa depan – jangan ragu untuk menghubungi kami lagi.</p>
+<p>Terima kasih,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

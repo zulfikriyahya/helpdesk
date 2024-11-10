@@ -1,0 +1,7 @@
+<p>Halo,</p>
+<p>Sebuah catatan baru telah ditambahkan ke tiket "%%SUBJECT%%".</p>
+<p>Catatan oleh %%NAME%%:</p>
+<p>%%MESSAGE%%</p>
+<p>Anda dapat mengelola tiket ini di sini:<br /><a href="%%TRACK_URL%%">%%TRACK_URL%%</a></p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

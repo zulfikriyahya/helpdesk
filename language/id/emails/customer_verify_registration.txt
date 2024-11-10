@@ -1,0 +1,10 @@
+Yang Terhormat %%NAME%%,
+
+Terima kasih telah membuat akun. Klik tautan di bawah ini untuk mengaktifkan akun Anda:
+
+%%VERIFICATION_URL%%
+
+Hormat kami,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

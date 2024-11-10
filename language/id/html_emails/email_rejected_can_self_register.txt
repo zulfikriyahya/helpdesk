@@ -1,0 +1,4 @@
+<p>Halo %%NAME%%,</p>
+<p>Kami tidak dapat memproses email Anda "%%SUBJECT%%" karena Anda tidak memiliki akun dengan kami.<br /><br />Untuk mengirim tiket dukungan melalui email, silakan daftar terlebih dahulu di:<br /><a href="%%CUSTOMER_REGISTER_URL%%">%%CUSTOMER_REGISTER_URL%%</a></p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

@@ -1,0 +1,5 @@
+<p>Halo %%NAME%%,</p>
+<p>Kami tidak dapat memproses email Anda "%%SUBJECT%%" karena Anda tidak memiliki akun dengan kami.</p>
+<p>Help desk ini hanya tersedia untuk pengguna terdaftar.</p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

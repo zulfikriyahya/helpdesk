@@ -1,0 +1,6 @@
+<p>Halo %%NAME%%,</p>
+<p>Kami baru saja membalas tiket Anda "%%SUBJECT%%".</p>
+<p>Untuk membaca pesan, mengirimkan balasan, dan melihat detail, silakan kunjungi:<br /><a href="%%TRACK_URL%%">%%TRACK_URL%%</a> <br /><br /></p>
+<p>Jika tautan di atas tidak dapat diklik, coba salin dan tempelkan ke bilah alamat peramban web Anda.</p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

@@ -1,0 +1,5 @@
+<p>Halo,</p>
+<p>Seorang pelanggan baru saja membalas tiket "%%SUBJECT%%".</p>
+<p>Anda dapat membaca pesan balasan dan mengelola tiket ini di sini:<br /><a href="%%TRACK_URL%%">%%TRACK_URL%%</a></p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

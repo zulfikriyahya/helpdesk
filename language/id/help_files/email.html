@@ -1,0 +1,513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Bantuan Interaktif untuk Pengaturan Hesk</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="help_style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- berikut: 77 -->
+
+<h3>Bantuan Interaktif untuk Pengaturan Hesk</h3>
+
+<p>&nbsp;</p>
+
+<a name="55"></a><p class="title">Pengirim Email</p>
+<p>Pilih apakah HESK harus mengirim email menggunakan fungsi PHP mail() atau menggunakan server SMTP yang disetup secara manual.</p>
+
+<p>PHP mail() biasanya berfungsi di sebagian besar setup, jika tidak berfungsi, Anda dapat mencoba menggunakan server SMTP sebagai gantinya.</p>
+
+<p>Variabel SMTP yang tersedia:</p>
+
+<p>
+<b>SMTP Host</b> - nama host server SMTP Anda, biasanya <i>localhost</i> atau <i>mail.example.com</i><br />
+<b>SMTP Port</b> - port SMTP Anda, biasanya 25<br />
+<b>SMTP Timeout</b> - waktu habis SMTP dalam detik<br />
+<b>Enkripsi</b> - aktifkan jika server SMTP Anda memerlukan koneksi terenkripsi<br />
+<b>SMTP Username</b> - nama pengguna SMTP Anda (jika digunakan)<br />
+<b>SMTP Password</b> - kata sandi SMTP Anda (jika digunakan)<br />
+</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="54"></a><p class="title">Email Piping</p>
+
+<p>Mengaktifkan email piping (membuat tiket dari email).</p>
+
+<p>Opsi ini hanya mengaktifkan fungsi piping di HESK, untuk setup email piping lengkap silakan merujuk ke file readme.html.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="59"></a><p class="title">Pengambilan POP3</p>
+
+<p>Pengaturan ini mengaktifkan atau menonaktifkan Pengambilan POP3 - membuat tiket dari email dengan menghubungkan ke akun email menggunakan koneksi POP3.
+
+<p>Untuk petunjuk cara mengatur Pengambilan POP3 silakan lihat file readme.html.</p>
+
+<p>Variabel yang tersedia:</p>
+
+<p><b>Waktu Habis Tugas</b> - jumlah menit untuk menunggu pekerjaan pengambilan POP3 yang ada
+selesai. Tidak ada pekerjaan pengambilan baru yang akan dimulai sampai waktu habis tercapai.
+Atur ke <b>0</b> untuk menonaktifkan waktu habis dan selalu mulai pekerjaan pengambilan baru.</p>
+
+<p>
+<b>POP3 Host</b> - nama host server POP3 Anda, biasanya <i>mail.example.com</i><br />
+<b>POP3 Port</b> - port POP3 Anda, biasanya 110. Gmail misalnya menggunakan 995<br />
+<b>Protokol TLS</b> - aktifkan jika server POP3 Anda memerlukan protokol TLS<br />
+<b>Simpan salinan</b> - jika diaktifkan HESK <b>tidak</b> akan menghapus email dari server POP3<br />
+<b>POP3 Username</b> - nama pengguna POP3 Anda<br />
+<b>POP3 Password</b> - kata sandi POP3 Anda<br />
+</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="67"></a><p class="title">Pengambilan IMAP</p>
+
+<p>Pengaturan ini mengaktifkan atau menonaktifkan Pengambilan IMAP - membuat tiket dari email dengan menghubungkan ke akun email menggunakan koneksi IMAP.</p>
+
+<p>Untuk petunjuk cara mengatur Pengambilan IMAP silakan lihat file readme.html.</p>
+
+<p>Variabel yang tersedia:</p>
+
+<p><b>Waktu Habis Tugas</b> - jumlah menit untuk menunggu pekerjaan pengambilan IMAP yang ada
+selesai. Tidak ada pekerjaan pengambilan baru yang akan dimulai sampai waktu habis tercapai.
+Atur ke <b>0</b> untuk menonaktifkan waktu habis dan selalu mulai pekerjaan pengambilan baru.</p>
+
+<p>
+<b>IMAP Host</b> - nama host server IMAP Anda, biasanya <i>mail.example.com</i><br />
+<b>IMAP Port</b> - port IMAP Anda, biasanya 143 untuk non-terenkripsi dan 993 untuk SSL/TLS<br />
+<b>Enkripsi</b> - setel enkripsi IMAP yang diperlukan<br />
+<b>Simpan salinan</b> - jika diaktifkan HESK <b>tidak</b> akan menghapus email dari server IMAP<br />
+<b>IMAP Username</b> - nama pengguna IMAP Anda<br />
+<b>IMAP Password</b> - kata sandi IMAP Anda<br />
+</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="68"></a><p class="title">Jangan memvalidasi sertifikat server</p>
+
+<p>Jika dicentang, Hesk tidak akan memvalidasi sertifikat dari server TLS/SSL.</p>
+
+<p>Validasi sertifikat biasanya perlu dilewati jika server menggunakan sertifikat self-signed.</p>
+
+<p>Kami sangat menyarankan agar Anda <b>tidak</b> menonaktifkan validasi sertifikat di server produksi dan saat menghubungkan ke server pihak ketiga karena ini membuat Anda rentan terhadap serangan man-in-the-middle.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="70"></a><p class="title">Jangan balas</p>
+
+<p>Jika dicentang, Hesk akan mencoba mendeteksi email yang dikirim dari alamat email &quot;Jangan balas&quot; dan mengabaikannya.</p>
+
+<p>Contoh:<br>
+do-not-reply@example.com<br>
+do_not_reply@example.com<br>
+no_reply@example.com
+</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="71"></a><p class="title">Dikembalikan</p>
+
+<p>Jika dicentang, Hesk akan mencoba mendeteksi dan mengabaikan email yang dikembalikan.</p>
+
+<p>Misalnya, Hesk akan mengabaikan email yang dikirim dari mail-deamon@example.com dan email dengan subjek seperti &quot;Mail yang dikembalikan&quot;, &quot;Tidak dapat dikirim&quot;, &quot;Keluar dari Kantor&quot; atau yang serupa.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="72"></a><p class="title">Duplikat</p>
+
+<p>Jika dicentang, Hesk akan mendeteksi dan mengabaikan email jika Hesk sudah memproses email dengan pesan yang sama dalam &quot;Rentang Waktu&quot; detik.</p>
+
+<p>Saat menguji fungsionalitas email ke tiket, nonaktifkan pengaturan ini atau kirim email uji dengan pesan unik.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="60"></a><p class="title">Loop Email</p>
+
+<p>Pengaturan untuk membantu mendeteksi loop email yang dibuat dari autoresponder atau email yang tidak dapat dikirim.</p>
+
+<p>Jumlah email yang lebih tinggi dari <b>Max Hits</b> dari alamat email dalam <b>Rentang Waktu</b> detik
+akan diabaikan oleh email piping.</p>
+
+<p>Atur <b>Max Hits</b> ke <b>0</b> untuk menonaktifkan deteksi loop.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+<a name="62"></a><p class="title">Deteksi kesalahan pengetikan email</p>
+
+<p>Fungsi ini akan mencoba mendeteksi kesalahan pengetikan nama domain email yang umum dan menyarankan versi yang benar.</p>
+
+<p>Misalnya jika pelanggan memasukkan user@<span style="color:red"><b>gmial.com</b></span> HESK akan mendeteksinya dan menyarankan
+user@<span style="color:green"><b>gmail.com</b></span> sebagai gantinya.</p>
+
+<p>HESK akan membandingkan domain email dengan domain yang tercantum dalam daftar <i>Penyedia Email</i>.</p>
+
+<p>&nbsp;</p>
+
+<a name="63"></a><p class="title">Penyedia Email</p>
+
+<p>Daftar penyedia email umum yang digunakan pelanggan Anda. HESK akan menggunakan daftar ini untuk mencoba mendeteksi alamat email yang salah ketik.</p>
+
+<p>Masukkan satu domain per baris, <u>tanpa</u> tanda @.</p>
+
+<p>Anda dapat memasukkan sejumlah nama domain umum, tetapi jangan berlebihan - masukkan hanya yang paling umum.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="65"></a><p class="title">Beri tahu pelanggan ketika</p>
+
+<p>Pilih kapan HESK harus mengirimkan pemberitahuan email kepada pelanggan:</p>
+
+<ul>
+<li><b>saat pelanggan mengirimkan tiket dukungan baru</b><br /><br />
+Catatan: jika tiket dikirimkan melalui email (email piping atau pengambilan POP3), HESK dapat
+melewatkan pengiriman pemberitahuan tiket baru kepada pelanggan jika subjek email berisi
+salah satu tag yang tercantum dalam kotak teks (satu tag per baris).<br /><br />Anda dapat menggunakan ini untuk mencegah
+balasan otomatis ke email yang terdeteksi sebagai kemungkinan SPAM oleh filter SPAM server Anda.<br />&nbsp;
+</li>
+<li><b>saat tiket dukungan ditandai sebagai Selesai</b> (tanpa membalas)</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Perhatikan bahwa preferensi pemberitahuan diatur secara individual per tiket ketika staf membalas tiket atau ketika staf mengirimkan tiket dari antarmuka admin.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="61"></a><p class="title">Hapus balasan yang dikutip</p>
+
+<p>Fungsi ini menghapus balasan yang dikutip dari semua email pelanggan sebelum diubah menjadi tiket.</p>
+
+<p>Semua email yang dikirim ke pelanggan akan dimulai dengan baris ini:</p>
+
+<p>------ Balas di atas baris ini ------</p>
+
+<p>Teks di bawah baris ini akan dihapus saat email diimpor ke balasan tiket.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="66"></a><p class="title">Wajibkan pesan</p>
+
+<p>Jika diaktifkan, email dari email piping atau pengambilan POP3 akan diabaikan jika tidak berisi pesan.</p>
+
+<p>Jika dinonaktifkan, bahkan email tanpa pesan akan diubah menjadi tiket.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="64"></a><p class="title">Berkas yang disematkan</p>
+
+<p>Aktifkan jika Anda ingin HESK menyimpan berkas email yang disematkan (misalnya gambar yang disematkan) sebagai lampiran saat mengimpor tiket melalui Email piping atau Pengambilan POP3.</p>
+
+<p>Berkas yang melebihi batas lampiran yang diizinkan akan diabaikan.</p>
+
+<p>Perhatikan bahwa dengan HESK lampiran berkas memiliki prioritas lebih tinggi daripada berkas yang disematkan. Misalnya jika Anda mengizinkan 2 lampiran berkas dan menerima email dengan 1 lampiran berkas
+dan 3 gambar yang disematkan, HESK akan menyimpan lampiran berkas dan gambar yang disematkan pertama, sisanya akan diabaikan.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="57"></a><p class="title">Pengikut tiket</p>
+<p>Jika diaktifkan, staf helpdesk dapat menugaskan beberapa pelanggan (selain pelanggan utama) sebagai "pengikut". Semua pengikut
+akan menerima pemberitahuan email yang sama seperti pelanggan utama.</p>
+
+<p>Mencentang kotak ini akan mengaktifkan fitur ini.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="50"></a><p class="title">Konfirmasi email</p>
+<p>Jika dipilih, formulir &quot;Kirim tiket&quot; akan menampilkan bidang &quot;Konfirmasi email&quot;
+memaksa pelanggan untuk mengetik alamat email dua kali. Ini membantu menghindari kesalahan ketik
+dalam alamat email.</p>
+
+<p>&nbsp;</p>
+
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="58"></a><p class="title">Hanya yang terbuka</p>
+<p>Jika dicentang, maka email &quot;Lupa ID tiket&quot; (email yang dikirim untuk mengingatkan pelanggan tentang nomor ID pelacakan tiket mereka)
+hanya akan mencantumkan tiket yang terbuka dan mengabaikan tiket yang telah diselesaikan.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="69"></a><p class="title">Format email</p>
+<p>Menentukan format email yang disertakan saat mengirim email. Pilihan termasuk:</p>
+
+<p>
+<b>HTML dengan alternatif teks biasa dari template teks biasa (default)</b> - email akan dikirim sebagai HTML. Konten template email teks biasa Hesk akan digunakan sebagai teks alternatif dalam email (multipart/alternative).<br />
+<b>HTML dengan alternatif teks biasa yang dihasilkan dari template HTML</b> - email akan dikirim sebagai HTML. Teks alternatif dalam email (multipart/alternative) akan dihasilkan dengan mengonversi template HTML ke teks biasa. Template email teks biasa Hesk akan diabaikan.<br />
+<b>Hanya HTML</b> - email akan dikirim hanya sebagai HTML tanpa multipart/alternative.<br />
+<b>Hanya teks biasa</b> - email akan dikirim sebagai teks biasa.<br />
+</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+<a name="73"></a><p class="title">Nonaktifkan GSSAPI</p>
+
+<p>Terkadang, server IMAP berbasis Windows akan mengembalikan pesan kesalahan seperti ini:</p>
+
+<p style="color:red">Notice: Unknown: Kerberos error: Credentials cache file '/tmp/krb123_0123' not found (try running kinit).</p>
+
+<p>Jika ini terjadi, coba aktifkan opsi &quot;Nonaktifkan GSSAPI&quot;, lalu uji kembali koneksi IMAP.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+<a name="74"></a><p class="title">Penerima maksimum</p>
+<p>Jumlah maksimum penerima email dalam satu email yang dikirim oleh Hesk.</p>
+
+<p>Jumlah &quot;Penerima maksimum&quot; adalah total kumulatif dari semua alamat email di bidang To, Cc, dan BCc dari sebuah email.</p>
+
+<p>Atur ke <b>0</b> untuk mematikan batas. Namun, sangat disarankan untuk menetapkan batas yang wajar. Banyak penyedia email akan memblokir email yang dikirim ke terlalu banyak penerima.</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+<a name="75"></a><p class="title">Email penolakan pelanggan</p>
+<p>Email pelanggan dapat ditolak oleh HESK saat akun pelanggan diperlukan, tetapi alamat email pengirim tidak terdaftar di help desk.</p>
+
+<p>Memilih opsi ini akan memberi tahu pelanggan bahwa email mereka ditolak. Untuk mengurangi spam, hanya satu email penolakan yang dikirim setiap jam &quot;Waktu antara email penolakan&quot;.</p>
+<p><b>Catatan:</b> Jika email ditolak karena spam atau dianggap duplikat, tidak ada email yang akan dikirim ke pelanggan terlepas dari pengaturan ini.</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="76"></a><p class="title">Waktu antara email penolakan</p>
+<p>Jumlah waktu untuk menunggu sebelum mengirim email penolakan kedua kepada pelanggan, terlepas dari jumlah email yang dikirim.</p>
+
+<p>Atur ke <b>0</b> untuk mematikan batas. Namun, sangat disarankan untuk menetapkan batas yang wajar untuk menghindari pengiriman email berlebihan oleh server email Anda.</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Tutup jendela</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+Yang Terhormat %%NAME%%,
+
+Kami tidak dapat memproses email Anda "%%SUBJECT%%" karena Anda belum memiliki akun dengan kami.
+
+Help desk ini hanya tersedia untuk pengguna yang terdaftar.
+
+Hormat kami,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

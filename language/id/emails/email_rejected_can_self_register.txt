@@ -1,0 +1,11 @@
+Yang Terhormat %%NAME%%,
+
+Kami tidak dapat memproses email Anda "%%SUBJECT%%" karena Anda belum memiliki akun dengan kami.
+
+Untuk mengirim tiket dukungan melalui email, silakan daftar terlebih dahulu di:
+%%CUSTOMER_REGISTER_URL%%
+
+Hormat kami,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

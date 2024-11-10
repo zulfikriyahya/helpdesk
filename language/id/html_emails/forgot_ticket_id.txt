@@ -1,0 +1,5 @@
+<p>Halo %%NAME%%,</p>
+<p>Email ini berisi daftar tiket dukungan yang dikirimkan dengan alamat email Anda. Jumlah tiket dukungan yang ditemukan: <strong>%%NUM%%</strong></p>
+<p>%%LIST_TICKETS%%</p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

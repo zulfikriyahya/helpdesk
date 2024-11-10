@@ -1,0 +1,5 @@
+<p>Halo %%NAME%%,</p>
+<p>Kami telah menerima permintaan untuk mengubah alamat email Anda.</p>
+<p>Untuk mengonfirmasi perubahan ini, silakan klik tautan di bawah ini (berlaku selama 1 jam):<br /><a href="%%VERIFICATION_URL%%">%%VERIFICATION_URL%%</a></p>
+<p>Salam,</p>
+<p>%%SITE_TITLE%%<br /><a href="%%SITE_URL%%">%%SITE_URL%%</a></p>

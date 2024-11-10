@@ -1,0 +1,14 @@
+Halo,
+
+Akun pelanggan baru sedang menunggu persetujuan dari staf.
+
+Jumlah persetujuan yang tertunda: %%NUM%%
+
+Anda dapat menyetujui atau menolak pendaftaran akun pelanggan di sini:
+%%VERIFICATION_URL%%
+
+
+Salam,
+
+%%SITE_TITLE%%
+%%SITE_URL%%
